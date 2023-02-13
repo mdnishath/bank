@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="">
+      <section class="grid grid-cols-1 w-9/12 mx-auto h-screen items-center">
+        <div>
+          <h1 class="font-bold text-5xl text-center">
+            Bank <span class="text-violet-700">Login</span>
+          </h1>
+          <div
+            class="w-4/12 mx-auto bg-blue-200 py-10 rounded-md shadow-md mt-4 grid grid-cols-1"
+          >
+            <input
+              class="block w-8/12 mx-auto mb-5 px-5 py-2 rounded-md focus:outline-violet-200"
+              type="email"
+              placeholder="Email address"
+              id="email"
+            />
+            <input
+              class="block w-8/12 mx-auto mb-5 px-5 py-2 rounded-mdz focus:outline-violet-200"
+              type="password"
+              placeholder="Password"
+              id="password"
+            />
+            <button
+              class="mx-auto px-10 py-3 bg-violet-600 text-white rounded-md font-semibold hover:bg-violet-700 ease-linear duration-200"
+              id="login"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Login ja -->
+    <script src="./js/login.js"></script>
+  </body>
+</html>
